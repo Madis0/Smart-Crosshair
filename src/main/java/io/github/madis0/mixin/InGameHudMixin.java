@@ -41,7 +41,7 @@ public abstract class InGameHudMixin {
 		playerEntity = this.getCameraPlayer();
 
 		countStartX = (this.scaledWidth / 2) + 2;
-		countStartY = (this.scaledHeight / 2) + 2;
+		countStartY = (this.scaledHeight / 2);
 
 		progStartW = countStartX - 12;
 		progStartH = countStartY + 10;
@@ -59,7 +59,7 @@ public abstract class InGameHudMixin {
 		int textX = countStartX;
 		int textY = countStartY;
 
-		client.textRenderer.drawWithShadow(stack, String.valueOf(99), textX, textY, color);
+		client.textRenderer.drawWithShadow(stack, Calculations.useSubscript("99"), textX, textY, color);
 	}
 
 	private void progressBar(){
