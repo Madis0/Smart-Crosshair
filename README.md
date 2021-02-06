@@ -1,9 +1,5 @@
-# Fabric Example Mod
+# Smart Crosshair
 
-## Setup
+A HUD mod for Minecraft 1.16.x using Fabric mod loader.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Work in progress, Curseforge and Modrinth releases will come when stable enough. Right now the JARs can be found from Actions tab.
